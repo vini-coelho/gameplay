@@ -31,7 +31,6 @@ export function SignIn() {
         </S.Subtitle>
         <ButtonIcon
           title='Entrar com Discord'
-          activeOpacity={0.7}
           onPress={handleSignIn}
         />
       </S.Content>
