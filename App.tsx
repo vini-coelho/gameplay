@@ -4,7 +4,7 @@ import { Inter_500Medium, Inter_400Regular } from '@expo-google-fonts/inter'
 import { StatusBar } from 'expo-status-bar'
 import AppLoading from 'expo-app-loading';
 
-import { Home } from './src/screens/Home';
+import { Routes } from './src/routes';
 import { Background } from './src/components/Background';
 
 export default function App() {
@@ -27,7 +27,7 @@ export default function App() {
         backgroundColor='transparent'
         translucent
         style='light'/>
-      <Home />
+      <Routes />
     </Background>
   );
 }
