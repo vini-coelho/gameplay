@@ -12,4 +12,7 @@ export const Header = styled.View`
   align-items: center;
   justify-content: space-between;
   margin-top: ${getStatusBarHeight() + 26}px;
+  margin-bottom: 42px;
 `;
+
+export const Wrapper = styled.View``;
