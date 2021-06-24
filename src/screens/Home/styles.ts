@@ -1,5 +1,6 @@
 import styled from 'styled-components/native';
 import { getStatusBarHeight } from 'react-native-iphone-x-helper';
+import { FlatList } from 'react-native';
 
 export const Container = styled.View`
   flex: 1;
@@ -14,8 +15,6 @@ export const Header = styled.View`
   margin-top: ${getStatusBarHeight() + 26}px;
   margin-bottom: 42px;
 `;
-
-export const Wrapper = styled.View``;
 
 export const Content = styled.View`
   margin-top: 42px;
