@@ -1,7 +1,10 @@
 import React from 'react';
 import { useState } from 'react';
+import { FlatList } from 'react-native';
+
 import { ButtonAdd } from '../../components/ButtonAdd';
 import { CategorySelect } from '../../components/CategorySelect';
+import { ListHeader } from '../../components/ListHeader';
 import { Profile } from '../../components/Profile';
 
 import * as S from './styles';
@@ -26,7 +29,10 @@ export function Home(){
           setCategory={handleCategorySelect}
         />
         <S.Content>
-
+          <ListHeader
+            title='Partidas agendadas'
+            subtitle='Total 6'
+          />
         </S.Content>
       </S.Wrapper>
     </S.Container>
