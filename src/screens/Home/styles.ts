@@ -16,3 +16,7 @@ export const Header = styled.View`
 `;
 
 export const Wrapper = styled.View``;
+
+export const Content = styled.View`
+  margin-top: 42px;
+`;
