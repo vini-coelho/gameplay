@@ -21,7 +21,6 @@ export const Content = styled.View`
   height: 116px;
   background-color: ${theme.colors.secondary40};
   border-radius: 8px;
-  justify-content: space-between;
   align-items: center;
   padding: 7px 0;
 `;
